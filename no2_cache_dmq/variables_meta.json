@@ -1,0 +1,157 @@
+{
+  "no2_conc": {
+    "nombre": "Concentración NO₂",
+    "icono": "🟣",
+    "unidad": "µmol/m²",
+    "paleta": [
+      "#2b2d6e",
+      "#4055a8",
+      "#5087c8",
+      "#7ec4cf",
+      "#b4e0a4",
+      "#ffffbf",
+      "#fec66b",
+      "#f27d2b",
+      "#d7191c",
+      "#8b0000"
+    ],
+    "min": 0,
+    "max": 17.72997963230134,
+    "tipo": "raster",
+    "dep_esc": true,
+    "grupo": "Calidad del aire"
+  },
+  "no2_idx": {
+    "nombre": "Índice sintético NO₂",
+    "icono": "📊",
+    "unidad": "[0–1]",
+    "paleta": [
+      "#1a9641",
+      "#74c476",
+      "#c7e9c0",
+      "#ffffbf",
+      "#fda768",
+      "#d7191c",
+      "#6b0000"
+    ],
+    "min": 0,
+    "max": 1,
+    "tipo": "raster",
+    "dep_esc": true,
+    "grupo": "Calidad del aire"
+  },
+  "no2_insitu": {
+    "nombre": "NO₂ in situ",
+    "icono": "📍",
+    "unidad": "µmol/m²",
+    "paleta": [
+      "#2b2d6e",
+      "#4055a8",
+      "#5087c8",
+      "#7ec4cf",
+      "#b4e0a4",
+      "#ffffbf",
+      "#fec66b",
+      "#f27d2b",
+      "#d7191c",
+      "#8b0000"
+    ],
+    "min": 0,
+    "max": 17.72997963230134,
+    "tipo": "vector",
+    "dep_esc": false,
+    "grupo": "Calidad del aire"
+  },
+  "dist_vias": {
+    "nombre": "Distancia a vías",
+    "icono": "🛣️",
+    "unidad": "m",
+    "paleta": [
+      "#d73027",
+      "#fc8d59",
+      "#fee090",
+      "#e0f3f8",
+      "#91bfdb",
+      "#4575b4"
+    ],
+    "min": 0,
+    "max": 5000,
+    "tipo": "raster",
+    "dep_esc": false,
+    "grupo": "Factores ambientales"
+  },
+  "viento": {
+    "nombre": "Velocidad del viento",
+    "icono": "💨",
+    "unidad": "m/s",
+    "paleta": [
+      "#edf8fb",
+      "#b3cde3",
+      "#8c96c6",
+      "#8856a7",
+      "#810f7c"
+    ],
+    "min": 0,
+    "max": 10,
+    "tipo": "raster",
+    "dep_esc": false,
+    "grupo": "Factores ambientales"
+  },
+  "temperatura": {
+    "nombre": "Temperatura",
+    "icono": "🌡️",
+    "unidad": "°C",
+    "paleta": [
+      "#2c7bb6",
+      "#74add1",
+      "#abd9e9",
+      "#ffffbf",
+      "#fdae61",
+      "#f46d43",
+      "#d73027"
+    ],
+    "min": 5,
+    "max": 25,
+    "tipo": "raster",
+    "dep_esc": false,
+    "grupo": "Factores ambientales"
+  },
+  "ndvi": {
+    "nombre": "NDVI",
+    "icono": "🌿",
+    "unidad": "índice",
+    "paleta": [
+      "#d73027",
+      "#fc8d59",
+      "#fee08b",
+      "#d9ef8b",
+      "#91cf60",
+      "#1a9850",
+      "#006837"
+    ],
+    "min": -0.2,
+    "max": 0.8,
+    "tipo": "raster",
+    "dep_esc": true,
+    "grupo": "Factores ambientales"
+  },
+  "pendiente": {
+    "nombre": "Pendiente",
+    "icono": "⛰️",
+    "unidad": "°",
+    "paleta": [
+      "#f7f4f9",
+      "#d4b9da",
+      "#c994c7",
+      "#df65b0",
+      "#e7298a",
+      "#ce1256",
+      "#91003f"
+    ],
+    "min": 0,
+    "max": 45,
+    "tipo": "raster",
+    "dep_esc": false,
+    "grupo": "Factores ambientales"
+  }
+}
